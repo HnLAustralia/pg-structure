@@ -187,7 +187,7 @@ typings/
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
-dist/
+
 npm-debug.log
 yarn-error.log
 
@@ -322,4 +322,3 @@ docs/nav.02.api
 
 # iCloud Symlinked files
 node_modules
-dist

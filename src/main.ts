@@ -304,6 +304,7 @@ function addConstraints(db: Db, rows: ConstraintQueryResult[]): void {
       else if (row.kind === "x") table.constraints.push(new ExclusionConstraint({ ...row, index, table }));
       else if (row.kind === "c") table.constraints.push(new CheckConstraint({ ...row, table, expression: row.checkConstraintExpression }));
       else if (row.kind === "f") {
+        if (index === undefined) return;
         const foreignKey = new ForeignKey({
           ...row,
           table,

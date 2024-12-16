@@ -1,0 +1,1 @@
+{"version":3,"file":"constraint.js","sourceRoot":"","sources":["../../../src/pg-structure/base/constraint.ts"],"names":[],"mappings":";;;;;AAAA,4DAAgE;AAQhE;;GAEG;AACH,MAA8B,UAAW,SAAQ,mBAAQ;IACvD,cAAc;IACd,YAAmB,IAA+B;QAChD,KAAK,CAAC,IAAI,CAAC,CAAC;QACZ,IAAI,CAAC,YAAY,GAAG,IAAI,CAAC,YAAY,CAAC;QACtC,IAAI,CAAC,UAAU,GAAG,IAAI,CAAC,UAAU,CAAC;IACpC,CAAC;CAOF;AAbD,6BAaC"}
